@@ -627,7 +627,8 @@ footer {
 }
 
 .contact {
-  clear: both;
+  float: left;
+  padding-right: 30px;
 }
 
 /* email input */
@@ -644,6 +645,16 @@ footer {
 .email {
   padding: 10px;
   box-sizing: border-box;
+}
+
+footer ul {
+  text-align: right;
+}
+
+footer h4,
+footer ul,
+footer p {
+  padding-bottom: 10px;
 }
 /* 
 --------
