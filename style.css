@@ -654,6 +654,10 @@ footer nav,
   box-sizing: border-box;
 }
 
+.footerNav {
+  float: right;
+}
+
 footer ul {
   text-align: right;
 }
@@ -743,10 +747,6 @@ Creating break points
   .footerRightSection {
     clear: both;
     width: 100%;
-  }
-
-  .footerNav {
-    float: right;
   }
 
   .footerLeftSection {
